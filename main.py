@@ -968,8 +968,5 @@ def main(page: ft.Page):
     cambiar_vista(2)
 
 if __name__ == "__main__":
-<<<<<<< HEAD
     ft.run(main, view=ft.AppView.WEB_BROWSER, host="0.0.0.0", port=8550, web_renderer=ft.WebRenderer.CANVAS_KIT)
-=======
-    ft.run(main, view=ft.AppView.WEB_BROWSER, host="0.0.0.0", port=8550)
->>>>>>> 87d7a1b0f338b5e466f6d00c973d58b7eb96186c
+
